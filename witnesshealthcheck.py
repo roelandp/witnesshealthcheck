@@ -9,8 +9,8 @@ steemnode               = "wss://node.steem.ws" # steem node to connect to for i
 witness                 = ""                    # Your witness name
 use_telegram            = 1                     # whether or not to use telegram
 telegram_token          = ""                    # Create your Telegram bot at @BotFather (https://telegram.me/botfather)
-telegram_id             = 007                   # Get your telegram id at @MyTelegramID_bot (https://telegram.me/mytelegramid_bot)
-pricefeed_updatetreshold = 0                    # hours of no pricefeed updates before you get a notification
+telegram_id             = 12345                 # Get your telegram id at @MyTelegramID_bot (https://telegram.me/mytelegramid_bot)
+pricefeed_updatetreshold = 10                   # hours of no pricefeed updates before you get a notification
 seed_host               = ""                    # hostname/ip for the public seed to monitor
 seed_port               = 2001                  # port for the public seed to monitor (steem default = 2001)
 seed_timeout_check      = 10                    # seconds before timeout is called on telnet public seed operation.
